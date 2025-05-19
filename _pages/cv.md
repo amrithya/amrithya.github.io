@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Define the markdown content
-md_content = """
 ---
 layout: archive
 title: "CV"
