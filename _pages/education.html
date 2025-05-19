@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 {% if site.author.linkedin %}
-  <div class="wordwrap">You can also find my education and experience on <a href="{{site.author.linkedin}}">my LinkedIn profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my education and experience on <a href="{{ site.author.linkedin }}">my LinkedIn profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
@@ -19,12 +21,20 @@ author_profile: true
     {% if educations_in_category.size > 0 %}
       <h2>{{ category[1].title }}</h2><hr />
       {% for education in educations_in_category reversed %}
-        {% include education-single.html education=education %}
+        {% include education-single.html post=education %}
       {% endfor %}
     {% endif %}
   {% endfor %}
 {% else %}
   {% for education in site.educations reversed %}
-    {% include education-single.html education=education %}
+    {% include education-single.html post=education %}
   {% endfor %}
 {% endif %}
+<!-- Old style rendering if education categories are not defined -->
+{% if site.education_category == nil %}
+  {% for education in site.educations reversed %}
+    {% include education-single.html post=education %}
+  {% endfor %}
+{% endif %}
+
+{% include archive-footer.html %}

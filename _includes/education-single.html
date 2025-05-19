@@ -14,7 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/EducationalOccupationalCredential">
-    
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -29,7 +29,7 @@
 
     <h2 class="archive__item-title" itemprop="name">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> 
+        <a href="{{ post.link }}">{{ title }}</a>
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
           <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
           <span class="sr-only">Permalink</span>
@@ -47,10 +47,16 @@
       <p>{{ post.degree }}{% if post.field %}, {{ post.field }}{% endif %}</p>
     {% endif %}
 
-    {% if post.date %}
+    {% if post.start_date and post.end_date %}
+      <p class="page__date">
+        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Duration:</strong>
+        <time datetime="{{ post.start_date }}">{{ post.start_date | date: "%B %Y" }}</time> – 
+        <time datetime="{{ post.end_date }}">{{ post.end_date | date: "%B %Y" }}</time>
+      </p>
+    {% elsif post.date %}
       <p class="page__date">
         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Year:</strong>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
+        <time datetime="{{ post.date }}">{{ post.date | date: "%Y" }}</time>
       </p>
     {% endif %}
 
@@ -58,8 +64,8 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
-        <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
       </p>
     {% endif %}
 
