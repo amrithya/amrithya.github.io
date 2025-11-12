@@ -9,23 +9,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-repositories",
+  },{id: "nav-cv",
+          title: "CV",
+          description: "Showcasing my academic background and expertise in Artificial Intelligence, Machine Learning, and Computer Science.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-repositories",
           title: "Repositories",
           description: "A showcase of my GitHub projects, experiments. From machine learning to deep learning in bioinformatics and beyond.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+          title: "People",
+          description: "You can contact supervisors from my past research roles for references.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -37,28 +37,28 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/Know_me/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
             },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-ended-the-tenure-as-a-programmer-analyst-at-cognizant-technology-solutions-chennai-india-building-full-stack-applications-and-managing-enterprise-software-projects",
+          title: 'Ended the tenure as a Programmer Analyst at Cognizant Technology Solutions, Chennai, India,...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-finished-3-month-machine-learning-research-internship-at-laboratoire-hubert-curien-saint-étienne-focusing-on-graph-learning-and-interpretable-structured-learning",
+          title: 'Finished 3-month Machine Learning Research Internship at Laboratoire Hubert Curien, Saint-Étienne, focusing on...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-completed-student-researcher-role-at-the-bioinformatics-group-albert-ludwigs-universität-freiburg-working-on-peptide-and-protein-analysis-using-deep-learning-and-ml",
+          title: 'Completed Student Researcher role at the Bioinformatics Group, Albert-Ludwigs-Universität Freiburg, working on peptide...',
+          description: "",
+          section: "News",},{id: "news-completed-1-semeter-erasmus-program-at-albert-ludwigs-universität-freiburg-specializing-in-artificial-intelligence",
+          title: 'Completed 1-semeter ERASMUS+ Program at Albert-Ludwigs-Universität Freiburg, specializing in Artificial Intelligence.',
+          description: "",
+          section: "News",},{id: "news-graduated-from-msc-in-machine-learning-and-data-mining-at-université-jean-monnet-saint-étienne-france",
+          title: 'Graduated from MSc in Machine Learning and Data Mining at Université Jean Monnet,...',
+          description: "",
+          section: "News",},{id: "news-looking-for-research-position-in-ai-related-to-llms-and-llms-applied-to-interdisciplinary-projects",
+          title: 'Looking for Research position in AI, related to LLMs and LLMs applied to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
