@@ -38,7 +38,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hello there, I'm a graduate in MSc Machine Learning and Data Mining from Université Jean-Monnet (UJM), Saint-Étienne, France. My main focus was on interpretable and sustainable AI, developing transformer and graph-based models for biological and scientific data. I’m passionate about creating transparent, efficient, and impactful <br> machine learning solutions across disciplines. I love working on interdisciplinary projects and exploring scientific questions. 
 
-Apart from academics and research, I like playing football and cricket, trying out new recipes (sometimes they turn out okay), and just having fun. Check out [Know_me](/know_me) to see what else I get up to! 😄
+Apart from academics and research, I like playing football and cricket, trying out new recipes (sometimes they turn out okay), and just having fun. Check out [Know_me](/Know_me) to see what else I get up to! 😄
 
 
 
