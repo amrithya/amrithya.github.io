@@ -7,6 +7,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 -->
 
 
-Hello there, I'm a graduate in MSc Machine Learning and Data Mining from Université Jean-Monnet (UJM), Saint-Étienne, France. My main focus was on interpretable and sustainable AI, developing transformer and graph-based models for biological and scientific data. I’m passionate about creating transparent, efficient, and impactful machine learning solutions across disciplines. I love working on interdisciplinary projects and exploring scientific questions. 
+## Benjamin Girault
+M1 internship supervisor
 
-A
+Research Associate at Inria, working in Laboratoire Hubert Curien (UMR 5516, Saint-Étienne, France). His research focuses on Physics-Informed Neural Networks and applications of graph signal processing.
+
+Personal site: [Home page](https://www.benjamin-girault.com/)

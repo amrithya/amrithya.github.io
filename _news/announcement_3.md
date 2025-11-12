@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-02-28 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Completed Student Researcher role at the Bioinformatics Group, Albert-Ludwigs-Universität Freiburg, working on peptide and protein analysis using deep learning and ML.

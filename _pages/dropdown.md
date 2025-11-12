@@ -7,7 +7,5 @@ dropdown: true
 children:
   - title: Know me
     permalink: /Know_me/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+
 ---
