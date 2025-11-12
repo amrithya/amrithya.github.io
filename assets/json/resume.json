@@ -23,6 +23,7 @@
       "studyType": "MSc Computer Science",
       "startDate": "2023-01-01",
       "endDate": "2025-01-01",
+      "url":"https://mldm.univ-st-etienne.fr/",
       "summary": "Covers data analysis, machine learning, AI, optimization, deep learning, computer vision, probabilistic models, and big data mining.",
       "courses": []
     },
@@ -33,6 +34,7 @@
       "studyType": "MSc Computer Science, ERASMUS+ semeter",
       "startDate": "2024-10-01",
       "endDate": "2025-02-01",
+      "url":"https://www.tf.uni-freiburg.de/en/study-programs/computer-science/m-sc-computer-science",
       "summary": "Focus on AI, reinforcement learning, computer vision, digital health, and deep learning.",
       "courses": []
     },
@@ -43,6 +45,7 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2017-01-01",
       "endDate": "2021-01-01",
+      "url":"https://www.svce.ac.in/departments/computer-science-and-engineering",
       "summary": "Foundation in programming, algorithms, data structures, databases, and software engineering.",
       "courses": []
     }
@@ -53,6 +56,7 @@
       "position": "AI Research Intern",
       "startDate": "2025-04-01",
       "endDate": "2025-08-31",
+      "url":"https://www.ibdm.univ-amu.fr/team/computational-biology/",
       "summary": "Designed interpretable foundation models for bulk and single-cell RNA-seq data classification, integrating explainability frameworks to identify key genes influencing cell differentiation.",
       "highlights": ["Improved classification accuracy and biological interpretability by >5%"],
       "skills": ["Machine Learning", "Large Language Models (LLMs)", "RNA-seq", "Single-cell Analysis", "Explainable AI (XAI)", "Computational Biology"]
@@ -62,6 +66,7 @@
       "position": "Student Researcher",
       "startDate": "2024-11-01",
       "endDate": "2025-03-31",
+      "url":"https://www.bioinf.uni-freiburg.de/",
       "summary": "Integrated bioinformatics tools for peptide and protein analysis using ML and deep learning. Implemented data preprocessing, model training, and inference pipelines.",
       "skills": ["Bioinformatics", "Deep Learning", "Machine Learning", "BERT", "Transformer Models", "Protein Analysis", "Data Preprocessing"]
     },
@@ -70,6 +75,7 @@
       "position": "Machine Learning Research Intern",
       "startDate": "2024-04-01",
       "endDate": "2024-07-31",
+      "url":"https://labhc-malice.github.io/",
       "summary": "Enhanced graph learning models with screening-based sparsity, reducing runtime by 10–20%, and contributed to interpretable structured learning research.",
       "skills": ["Machine Learning", "Graph Learning", "Structured Learning", "Optimization Constraints", "Runtime Optimization", "Python", "Deep Learning"]
     },
