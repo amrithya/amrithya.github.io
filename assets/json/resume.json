@@ -21,8 +21,8 @@
       "location": "Saint-Étienne, France",
       "area": "Machine Learning and Data Mining",
       "studyType": "MSc Computer Science",
-      "startDate": "2023-01-01",
-      "endDate": "2025-01-01",
+      "startDate": "2023-08",
+      "endDate": "2025-09",
       "url":"https://mldm.univ-st-etienne.fr/",
       "summary": "Covers data analysis, machine learning, AI, optimization, deep learning, computer vision, probabilistic models, and big data mining.",
       "courses": []
@@ -32,8 +32,8 @@
       "location": "Freiburg, Germany",
       "area": "Artificial Intelligence",
       "studyType": "MSc Computer Science, ERASMUS+ semeter",
-      "startDate": "2024-10-01",
-      "endDate": "2025-02-01",
+      "startDate": "2024-10",
+      "endDate": "2025-03",
       "url":"https://www.tf.uni-freiburg.de/en/study-programs/computer-science/m-sc-computer-science",
       "summary": "Focus on AI, reinforcement learning, computer vision, digital health, and deep learning.",
       "courses": []
@@ -43,8 +43,8 @@
       "location": "Chennai, India",
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor of Engineering",
-      "startDate": "2017-01-01",
-      "endDate": "2021-01-01",
+      "startDate": "2017-08",
+      "endDate": "2021-05",
       "url":"https://www.svce.ac.in/departments/computer-science-and-engineering",
       "summary": "Foundation in programming, algorithms, data structures, databases, and software engineering.",
       "courses": []
@@ -54,8 +54,8 @@
     {
       "name": "IBDM and QARMA Team, Marseille, France",
       "position": "AI Research Intern",
-      "startDate": "2025-04-01",
-      "endDate": "2025-08-31",
+      "startDate": "2025-04",
+      "endDate": "2025-08",
       "url":"https://www.ibdm.univ-amu.fr/team/computational-biology/",
       "summary": "Designed interpretable foundation models for bulk and single-cell RNA-seq data classification, integrating explainability frameworks to identify key genes influencing cell differentiation.",
       "highlights": ["Improved classification accuracy and biological interpretability by >5%"],
@@ -64,8 +64,8 @@
     {
       "name": "Bioinformatics Group, Albert-Ludwigs-University – Freiburg, Germany",
       "position": "Student Researcher",
-      "startDate": "2024-11-01",
-      "endDate": "2025-03-31",
+      "startDate": "2024-11",
+      "endDate": "2025-03",
       "url":"https://www.bioinf.uni-freiburg.de/",
       "summary": "Integrated bioinformatics tools for peptide and protein analysis using ML and deep learning. Implemented data preprocessing, model training, and inference pipelines.",
       "skills": ["Bioinformatics", "Deep Learning", "Machine Learning", "BERT", "Transformer Models", "Protein Analysis", "Data Preprocessing"]
@@ -73,8 +73,8 @@
     {
       "name": "Laboratoire Hubert Curien – Saint Etienne",
       "position": "Machine Learning Research Intern",
-      "startDate": "2024-04-01",
-      "endDate": "2024-07-31",
+      "startDate": "2024-04",
+      "endDate": "2024-07",
       "url":"https://labhc-malice.github.io/",
       "summary": "Enhanced graph learning models with screening-based sparsity, reducing runtime by 10–20%, and contributed to interpretable structured learning research.",
       "skills": ["Machine Learning", "Graph Learning", "Structured Learning", "Optimization Constraints", "Runtime Optimization", "Python", "Deep Learning"]
@@ -82,8 +82,8 @@
     {
       "name": "Cognizant Technology Solutions – Chennai, India",
       "position": "Programmer Analyst",
-      "startDate": "2021-07-01",
-      "endDate": "2023-07-31",
+      "startDate": "2021-07",
+      "endDate": "2023-07",
       "summary": "Engineered full-stack web applications, managed databases, and built pipelines for enterprise clients in Agile teams.",
       "skills": ["Full-Stack Development", "Angular", "JSP", "SQL Server", "PostgreSQL", "MongoDB", "DevOps", "Web Applications", "Agile", "Build Pipelines", "Enterprise Software", "Database Management", "Software Engineering"]
     }
