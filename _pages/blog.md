@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
-nav: false
-nav_order: 1
+title: Blog
+nav: true
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
@@ -103,13 +103,16 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+  {% if page.pagination.enabled %}
+    {% assign postlist = paginator.posts %}
+  {% else %}
+    {% assign postlist = site.posts %}
+  {% endif %}
 
-    {% for post in postlist %}
+  {% for post in postlist %}
+    {% if post.external_source or post.redirect %}
+      {% continue %}
+    {% endif %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -121,6 +124,7 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     <li>
+
 
 {% if post.thumbnail %}
 
