@@ -2,14 +2,16 @@ github_users:
   - amrithya
 
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
+  - amrithya/xai_protein_localization
   - amrithya/Cell-type-classification-using-scRNAseq
   - amrithya/peptide_classification_using_BERT
   - amrithya/transfer_learning
   - amrithya/transcript_extraction
+  - amrithya/Library-Management-System
   - amrithya/Classification-of-Forest-Cover-Types-using-SVM
   - amrithya/Performance-Analysis-of-KNN-on-Waveforms-dataset
   - amrithya/Advanced-Algorithm-Project-2023-2024
-  - amrithya/Library-Management-System
+  
